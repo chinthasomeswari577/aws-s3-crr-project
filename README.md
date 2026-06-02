@@ -36,13 +36,13 @@ The architecture below shows how data flows from the source S3 bucket in Mumbai 
 
 ### Step 1: Create Source Bucket (Mumbai Region)
 
-Created S3 bucket in ap-south-1 region.
+- Created S3 bucket in ap-south-1 region.
 
 ![Source Bucket](screenshots/01-source-bucket-created.png)
 
 ### Step 2: Create Destination Bucket (Singapore Region)
 
-Created S3 bucket in ap-southeast-1 region.
+- Created S3 bucket in ap-southeast-1 region.
 
 ![Destination Bucket](screenshots/02-destination-bucket-created.png)
 
@@ -108,5 +108,6 @@ Cross-Region Replication is widely used in enterprise systems for:
 - IAM roles and permissions in AWS security model  
 - Real-world disaster recovery implementation in cloud  
 - Designing highly available cloud storage systems  
+
 ---
 ⭐ If you like this project, give it a star on GitHub!
