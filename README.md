@@ -10,6 +10,16 @@ The system automatically replicates objects from a source S3 bucket in Mumbai (a
 - Basic knowledge of Amazon S3
 - IAM role permissions
 - Versioning enabled in S3
+## 🎯 Problem Statement
+
+In real-world cloud systems, data loss or regional failures can lead to serious issues. To overcome this, organizations use cross-region replication to maintain backup copies of data in multiple geographic locations.
+
+## 💡 Solution
+
+AWS S3 Cross-Region Replication (CRR) is used to:
+Automatically replicate objects across AWS regions
+Ensure backup and disaster recovery
+Improve data availability and resilience
 
 ## ☁️ AWS Services Used
 - Amazon S3  
